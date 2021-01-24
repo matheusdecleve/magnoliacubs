@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap");
+
+@import "header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none !important;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  transition: 0.2s;
+}
+
+p {
+  font-weight: 300 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+a,
+span,
+i,
+input,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+// Remove outline style in buttons
+.btn,
+.btn:focus,
+.btn:hover,
+.btn:active {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
